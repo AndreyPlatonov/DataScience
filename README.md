@@ -2,4 +2,4 @@
 
 
 ## Модуль Основы Python 
-- Основы Python - python-basics
+- /python-basics  Основы Python
