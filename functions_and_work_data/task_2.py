@@ -25,7 +25,7 @@ def regionName(keyword):
 
 keywords = pd.read_csv('functions_and_work_data//keywords.csv')
 
-keywords['region'] = keywords.keyword.apply(regionName)
+keywords['region'] = keywords['keyword'].apply(regionName)
 
 print(f'Гео-классификатор по ключевым словам:  \n{keywords}')
 

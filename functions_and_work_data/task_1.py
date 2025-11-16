@@ -17,6 +17,6 @@ def ratingName(rating):
      
 ratings = pd.read_csv('functions_and_work_data//ratings.csv')
 
-ratings['class'] = ratings.rating.apply(ratingName)
+ratings['class'] = ratings['rating'].apply(ratingName)
 
 print(f'Обновленные рейтинги с наименованиями:  \n{ratings}')
