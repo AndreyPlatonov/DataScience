@@ -21,3 +21,5 @@
 
 ## Функции и работа с данными
 - /functions_and_work_data Функции и работа с данными 
+## Продвинутый pandas
+- /advanced_pandas Продвинутый pandas 
